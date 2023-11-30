@@ -1,0 +1,303 @@
+{
+  "users": [
+    {
+      "username": "kosepo",
+      "email": "kosepo@mail.com",
+      "phone_no": "+1 (348) 878-4903",
+      "password": "kosepo123",
+      "profile_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHRlY2h8ZW58MHx8MHx8fDA%3D",
+      "id": 1
+    },
+    {
+      "username": "Ninja",
+      "email": "ninja@mail.com",
+      "phone_no": "09966233417",
+      "password": "hello123",
+      "profile_url": "https://images.unsplash.com/photo-1701014158951-6fe8daadb334?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0Mnx8fGVufDB8fHx8fA%3D%3D",
+      "id": 2
+    },
+    {
+      "username": "ninja",
+      "email": "bityqoj@mailinator.com",
+      "phone_no": "+1 (528) 722-1805",
+      "password": "Pa$$w0rd!",
+      "profile_url": "https://www.jatyjozabyme.me.uk",
+      "id": 3
+    },
+    {
+      "username": "gelucygiv",
+      "email": "tebalereqi@mailinator.com",
+      "phone_no": "+1 (276) 582-6558",
+      "password": "Pa$$w0rd!",
+      "profile_url": "https://www.husagabe.org",
+      "id": 4
+    },
+    {
+      "username": "mmt",
+      "email": "bityqoj@mailinator.com",
+      "phone_no": "+1 (528) 722-1805",
+      "password": "Pa$$w0rd!",
+      "profile_url": "https://www.jatyjozabyme.me.uk",
+      "id": 5
+    },
+    {
+      "username": "jecyxuzo",
+      "email": "zahinafako@mailinator.com",
+      "phone_no": "+1 (976) 397-1987",
+      "password": "Pa$$w0rd!",
+      "profile_url": "https://www.javiribe.me",
+      "id": 6
+    },
+    {
+      "username": "tuhoto",
+      "email": "fehotabeq@mailinator.com",
+      "phone_no": "+1 (219) 228-4292",
+      "password": "Pa$$w0rd!",
+      "profile_url": "https://www.xoludig.us",
+      "id": 7
+    },
+    {
+      "username": "riqowi",
+      "email": "zeguxi@mailinator.com",
+      "phone_no": "+1 (718) 418-4965",
+      "password": "Pa$$w0rd!",
+      "profile_url": "https://www.bozozagapinaxi.net",
+      "id": 8
+    },
+    {
+      "username": "wuhijor",
+      "email": "jobyzo@mailinator.com",
+      "phone_no": "+1 (126) 881-3146",
+      "password": "Pa$$w0rd!",
+      "profile_url": "https://www.nufixowimelyny.biz",
+      "id": 9
+    },
+    {
+      "username": "wyvybijunu",
+      "email": "fesuk@mailinator.com",
+      "phone_no": "+1 (461) 814-7856",
+      "password": "Pa$$w0rd!",
+      "profile_url": "https://www.huvaxyqetyda.biz",
+      "id": 10
+    },
+    {
+      "username": "fuhulax",
+      "email": "caje@mailinator.com",
+      "phone_no": "+1 (772) 464-3248",
+      "password": "Pa$$w0rd!",
+      "profile_url": "https://www.gelynoxozufoso.com.au",
+      "id": 11
+    },
+    {
+      "username": "qijoqup",
+      "email": "xuvucycej@mailinator.com",
+      "phone_no": "+1 (696) 142-5423",
+      "password": "Pa$$w0rd!",
+      "profile_url": "https://www.dilixodawogo.cc",
+      "id": 12
+    },
+    {
+      "username": "kyaw gyi",
+      "email": "kyawgyi@mail.com",
+      "phone_no": "+1 (208) 618-8584",
+      "password": "kg23",
+      "profile_url": "https://images.unsplash.com/photo-1554126807-6b10f6f6692a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJveXxlbnwwfHwwfHx8MA%3D%3D",
+      "registration_date": "",
+      "id": 13
+    },
+    {
+      "username": "aung paing min",
+      "email": "aungpaingmin@mail.com",
+      "phone_no": "+1 (465) 369-3449",
+      "password": "123",
+      "profile_url": "https://www.fecuwyzifyz.mobi",
+      "registration_date": "",
+      "id": 14
+    }
+  ],
+  "posts": [
+    {
+      "id": 2,
+      "title": "Title text",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, officia?",
+      "image_url": "https://images.unsplash.com/photo-1578632749014-ca77efd052eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFuaW1lfGVufDB8fDB8fHww",
+      "category": "",
+      "userId": 6
+    },
+    {
+      "id": 4,
+      "title": "new title",
+      "body": "san kyi tar par",
+      "image_url": "https://images.unsplash.com/photo-1682687220067-dced9a881b56?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8",
+      "category": "",
+      "userId": 4
+    },
+    {
+      "id": 5,
+      "title": "Title text",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, officia?",
+      "image_url": "https://images.unsplash.com/photo-1613487957484-32c977a8bd62?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fGFuaW1lfGVufDB8fDB8fHww",
+      "category": "",
+      "userId": 6
+    },
+    {
+      "title": "kosepo",
+      "body": "edit post by kosepo",
+      "image_url": "https://images.unsplash.com/photo-1597733336794-12d05021d510?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRlY2h8ZW58MHx8MHx8fDA%3D",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "title": "Et ipsum nulla temp",
+      "body": "Dolor ipsum eaque no",
+      "image_url": "https://plus.unsplash.com/premium_photo-1701207574420-05ce35eba8d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMnx8fGVufDB8fHx8fA%3D%3D",
+      "userId": 9,
+      "id": 8
+    },
+    {
+      "title": "Qui sint libero et a",
+      "body": "Facilis consequuntur",
+      "image_url": "https://plus.unsplash.com/premium_photo-1700590374084-4e35eaacb993?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8fA%3D%3D",
+      "userId": 8,
+      "id": 9
+    },
+    {
+      "title": "Et sit ullamco recus",
+      "body": "Sunt molestiae eos ",
+      "image_url": "https://plus.unsplash.com/premium_photo-1700070725852-dcec2c212a74?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHx8",
+      "userId": 2,
+      "id": 10
+    },
+    {
+      "title": "Cumque ea omnis dolo",
+      "body": "Ut eius voluptatem ",
+      "image_url": "https://images.unsplash.com/photo-1682685794690-dea7c8847a50?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHx8fA%3D%3D",
+      "userId": 2,
+      "id": 11
+    },
+    {
+      "title": "Eiusmod ullamco temp",
+      "body": "Ut libero hic quia u",
+      "image_url": "https://images.unsplash.com/photo-1701143917332-4639dbfeaa29?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "",
+      "userId": 2,
+      "id": 13
+    }
+  ],
+  "comments": [
+    {
+      "comment": "testing purpose",
+      "postId": 2,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "comment": "also testing purpose",
+      "postId": 8,
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "comment": "123 comment testing",
+      "postId": 11,
+      "userId": 4,
+      "id": 5
+    },
+    {
+      "comment": "123",
+      "postId": 8,
+      "userId": 4,
+      "id": 6
+    },
+    {
+      "comment": "123",
+      "postId": 11,
+      "userId": 4,
+      "id": 7
+    },
+    {
+      "comment": "dasdw",
+      "postId": 2,
+      "userId": 4,
+      "id": 9
+    },
+    {
+      "comment": "12",
+      "postId": 2,
+      "userId": 4,
+      "id": 10
+    },
+    {
+      "comment": "afdd",
+      "postId": 2,
+      "userId": 4,
+      "id": 11
+    },
+    {
+      "comment": "hello i am testing",
+      "postId": 7,
+      "userId": 4,
+      "id": 12
+    },
+    {
+      "comment": "adwda",
+      "postId": 7,
+      "userId": 4,
+      "id": 13
+    },
+    {
+      "comment": "dawccdaw",
+      "postId": 7,
+      "userId": 4,
+      "id": 14
+    },
+    {
+      "comment": "daw",
+      "postId": 5,
+      "userId": 4,
+      "id": 15
+    },
+    {
+      "comment": "zdw",
+      "postId": 5,
+      "userId": 4,
+      "id": 16
+    },
+    {
+      "comment": "dafd",
+      "postId": 2,
+      "userId": 4,
+      "id": 17
+    },
+    {
+      "comment": "123",
+      "postId": 11,
+      "userId": 4,
+      "id": 18
+    },
+    {
+      "comment": "123",
+      "postId": 11,
+      "userId": 4,
+      "id": 19
+    },
+    {
+      "comment": "22321",
+      "postId": 4,
+      "userId": 2,
+      "id": 20
+    },
+    {
+      "comment": "asd",
+      "postId": 4,
+      "userId": 2,
+      "id": 21
+    },
+    {
+      "comment": "fad",
+      "postId": 13,
+      "userId": 2,
+      "id": 24
+    }
+  ]
+}
