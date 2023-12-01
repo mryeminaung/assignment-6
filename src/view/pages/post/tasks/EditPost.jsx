@@ -1,8 +1,9 @@
 import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import moment from "moment";
 
-const EditPost = ({ post, setEditMode }) => {
+const EditPost = ({ post, setEditMode, user }) => {
 	const navigate = useNavigate();
 
 	const [editData, setEditData] = useState({
@@ -20,8 +21,13 @@ const EditPost = ({ post, setEditMode }) => {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		axios
-			.patch(`http://localhost:3000/posts/${post.id}`, { ...editData })
-			.then((res) => navigate(`/posts/post-detail/${post.id}`, { state: res.data }));
+			.patch(`http://localhost:3000/posts/${post.id}`, {
+				...editData,
+				created_at: moment().format(),
+			})
+			.then((res) =>
+				navigate(`/posts/post-detail/${post.id}`, { state: { post: res.data, user } }),
+			);
 		setEditMode(false);
 	};
 

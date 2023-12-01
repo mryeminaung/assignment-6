@@ -34,7 +34,7 @@ const Register = () => {
 				password: "",
 				profile_url: "",
 			});
-			navigate("/posts");
+			navigate("/login");
 		}
 	};
 

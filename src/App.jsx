@@ -17,6 +17,7 @@ import CreatePost from "./view/pages/post/tasks/CreatePost";
 import EditProfile from "./view/pages/profile/EditProfile";
 import EditPassword from "./view/pages/profile/EditPassword";
 import AccountSettingLayout from "./layout/AccountSettingLayout";
+import UserProfile from "./view/pages/profile/UserProfile";
 
 const App = () => {
 	return (
@@ -27,6 +28,7 @@ const App = () => {
 						<Route index element={<Home />} />
 
 						<Route path="account-setting" element={<AccountSettingLayout />}>
+							{/* <Route index element={<UserProfile />} /> */}
 							<Route path="edit-profile" element={<EditProfile />} />
 							<Route path="change-password" element={<EditPassword />} />
 						</Route>

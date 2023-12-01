@@ -44,10 +44,17 @@ const EditProfile = () => {
 	return (
 		<div className="">
 			<form className="space-y-4 px-3" autoComplete="off" onSubmit={handleSubmit}>
-				<div className="flex items-center">
-					<img src="" alt="" className="rounded-full" />
-					<div className="flex flex-col items-center">
-						<h2 className="text-xl font-semibold">Logged-in User : {authUser}</h2>
+				<div className="flex items-center gap-2">
+					<img src={loggedInUser.profile_url} alt="" className="rounded-full w-20 h-20" />
+					<div className="flex flex-col items-start">
+						<h2 className="text-lg font-semibold">{authUser}</h2>
+						<button
+							type="button"
+							className="btn"
+							onClick={() => navigate("/account-setting/user-profile")}
+						>
+							View Profile
+						</button>
 					</div>
 				</div>
 				{/* username field */}

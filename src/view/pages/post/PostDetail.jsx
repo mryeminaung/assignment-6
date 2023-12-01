@@ -8,7 +8,8 @@ const PostDetail = () => {
 	const { loggedInUser } = useAuthContext();
 	const navigate = useNavigate();
 	const location = useLocation();
-	const post = location.state;
+	const post = location.state.post;
+	const user = location.state.user;
 
 	const [editMode, setEditMode] = useState(false);
 	const [totalComments, setTotalComments] = useState([]);
@@ -37,7 +38,7 @@ const PostDetail = () => {
 	const handleCommentDelete = (comment) => {
 		if (loggedInUser.id === comment.userId) {
 			axios.delete(`http://localhost:3000/comments/${comment.id}`);
-			navigate(`/posts/post-detail/${post.id}`, { state: post });
+			navigate(`/posts/post-detail/${post.id}`, { state: { post, user } });
 		}
 	};
 
@@ -54,58 +55,79 @@ const PostDetail = () => {
 				userId: loggedInUser.id,
 			});
 			getComments();
-			navigate(`/posts/post-detail/${post.id}`, { state: post });
+			navigate(`/posts/post-detail/${post.id}`, { state: { post, user } });
 			setComment("");
 		}
 	};
 
 	return (
 		<div className="relative">
-			{editMode && <EditPost post={post} setEditMode={setEditMode} />}
+			{editMode && <EditPost post={post} user={user} setEditMode={setEditMode} />}
 			<div className="rounded-md">
-				<Link to="../.." relative="path" className="btn">
-					Back to posts
-				</Link>
 				<div className="flex items-center justify-center">
-					<div className="w-[500px] flex justify-between flex-col gap-1 overflow-hidden  rounded-md shadow-md box py-5">
-						<div className="p-2">
-							<div className="flex items-center justify-between">
-								<h4 className="font-semibold text-xl">{post.title}</h4>
+					<div className="w-[500px] flex pt-2 pb-4 justify-between flex-col gap-1 overflow-hidden rounded-md shadow-md bg-slate-200">
+						<div className="px-2 relative">
+							<Link to="../.." relative="path" className="btn absolute right-2 ">
+								Close
+							</Link>
+							<div className="flex items-start justify-between mt-10">
+								<div className="flex items-center gap-x-2">
+									<img src={user.profile_url} alt="" className="rounded-full h-12 w-12" />
+									<div>
+										<h3 className="font-bold text-xl capitalize">{user.username}</h3>
+										<h3>{post.created_at}</h3>
+									</div>
+								</div>
 								{loggedInUser.id === post.userId && (
 									<div className="space-x-2">
-										<button className="btn" onClick={() => setEditMode(true)}>
+										<button
+											className="text-black text-4xl"
+											onClick={() => alert("edit/delete")}
+										>
+											...
+										</button>
+										{/* <button className="btn" onClick={() => setEditMode(true)}>
 											Edit
 										</button>
 										<button className="btn" onClick={handlePostDelete}>
 											Delete
-										</button>
+										</button> */}
 									</div>
 								)}
 							</div>
-							<p>{post.body}</p>
+							<div className="py-2">
+								<h2 className="text-lg font-semibold">{post.title}</h2>
+								<p>{post.body}</p>
+							</div>
 						</div>
 						<img
 							src={post.image_url}
 							alt={post.title}
-							className="rounded-md h-[400px] object-fit w-full"
+							className="rounded-xs h-[400px] object-fit w-full"
 						/>
-						<div className="my-4 px-3">
-							<form
-								onSubmit={handleComment}
-								className="flex items-center justify-between gap-x-3"
-							>
-								<input
-									type="text"
-									name="comment"
-									id="comment"
-									value={comment}
-									onChange={handleCommentChange}
-									placeholder="Write a comment"
-									className="w-full border-b-2 focus:outline-none border-b-red-500 px-2 py-1 rounded-md"
-								/>
-								<button type="submit" className="btn" onClick={handleComment}>
-									Comment
-								</button>
+
+
+						{/* comment section */}
+						<div className="my-4">
+							<form onSubmit={handleComment}>
+								<div className="flex items-center justify-between rounded-lg px-2 py-1">
+									<input
+										type="text"
+										name="comment"
+										id="comment"
+										value={comment}
+										onChange={handleCommentChange}
+										placeholder="Write a comment"
+										className="w-full focus:outline-none px-2 py-1 rounded-md"
+									/>
+									<button
+										type="submit"
+										className="border-2 bg-slate-500 text-white rounded-lg px-2 py-1"
+										onClick={handleComment}
+									>
+										Comment
+									</button>
+								</div>
 							</form>
 						</div>
 						<div className="px-3">

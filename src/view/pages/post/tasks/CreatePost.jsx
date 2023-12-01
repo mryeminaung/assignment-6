@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuthContext } from "../../../../context/AuthContext";
+import moment from "moment";
 
 const CreatePost = () => {
 	const navigate = useNavigate();
@@ -18,9 +19,10 @@ const CreatePost = () => {
 		const { title, body, image_url } = postData;
 		if (title && body && image_url) {
 			axios.post("http://localhost:3000/posts", {
-				...postData,
-				category: "",
 				userId: loggedInUser.id,
+				...postData,
+				category: "IT",
+				created_at: moment().format(),
 			});
 			navigate("/posts");
 		}

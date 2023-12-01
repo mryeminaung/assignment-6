@@ -1,22 +1,42 @@
 import { useNavigate } from "react-router-dom";
 import thumbNailImg from "./placeholder.webp";
+import { useAuthContext } from "../../../context/AuthContext";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 const PostCard = ({ post }) => {
 	const navigate = useNavigate();
+	const [user, setUser] = useState({});
+	const { authUser } = useAuthContext();
+
+	useEffect(() => {
+		axios.get(`http://localhost:3000/users/${post.userId}`).then((res) => {
+			setUser(res.data);
+		});
+	}, [post]);
 
 	return (
 		<div
 			className="box rounded-md hover:cursor-pointer overflow-hidden"
-			onClick={() => navigate(`post-detail/${post.id}`, { state: post })}
+			onClick={() => {
+				if (authUser) {
+					navigate(`post-detail/${post.id}`, { state: { post, user } });
+				} else {
+					alert("login first");
+				}
+			}}
 		>
 			<img
 				src={post.image_url ? post.image_url : thumbNailImg}
 				alt={post.title}
 				className="rounded-b-sm w-full h-[250px] object-fit"
 			/>
-			<div className="p-3">
-				<h2 className="text-xl font-semibold">{post.title}</h2>
-				<h3>{post.body}</h3>
+			<div className="p-3 flex items-center gap-x-2">
+				<img src={user.profile_url} alt="" className="rounded-full h-12 w-12" />
+				<div>
+					<h3 className="font-bold capitalize">{user.username}</h3>
+					<h3>{post.created_at}</h3>
+				</div>
 			</div>
 		</div>
 	);

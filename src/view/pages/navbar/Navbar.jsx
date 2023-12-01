@@ -13,9 +13,11 @@ const Navbar = () => {
 						<a href="/">Assignment Six</a>
 					</h1>
 				</header>
-				<div className="space-x-3">
+				<div className="space-x-3 font-bold">
 					<NavLink to="/">Home</NavLink>
-					<NavLink to="/posts">Posts</NavLink>
+					<NavLink to="/posts">All Posts</NavLink>
+				</div>
+				<div className="space-x-2">
 					{authUser ? (
 						<>
 							<NavLink to="/account-setting/edit-profile">Account Setting</NavLink>
@@ -31,9 +33,14 @@ const Navbar = () => {
 							</button>
 						</>
 					) : (
-						<NavLink to="/login" className="btn">
-							Login
-						</NavLink>
+						<>
+							<NavLink to="/register" className="btn">
+								Register
+							</NavLink>
+							<NavLink to="/login" className="btn">
+								Login
+							</NavLink>
+						</>
 					)}
 				</div>
 			</nav>

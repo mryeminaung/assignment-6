@@ -85,7 +85,7 @@ const Login = () => {
 			<p className="">
 				If you don't have an account,
 				<Link to="/register" className="text-blue-500 px-2 font-semibold">
-					Register here
+					Sign Up
 				</Link>
 			</p>
 		</div>

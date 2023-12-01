@@ -1,4 +1,6 @@
 import { useEffect } from "react";
+import Posts from "../post/Posts";
+import FeaturedPosts from "../post/FeaturedPosts";
 
 const Home = () => {
 	useEffect(() => {
@@ -6,8 +8,8 @@ const Home = () => {
 	}, []);
 
 	return (
-		<div className="flex items-center justify-center">
-			<h1 className="text-2xl">Assignment 6</h1>
+		<div className="my-10">
+			<FeaturedPosts />
 		</div>
 	);
 };
