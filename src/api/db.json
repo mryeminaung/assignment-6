@@ -24,6 +24,15 @@
       "profile_url": "https://plus.unsplash.com/premium_photo-1674854858248-8987c02e74cf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fG1hbnxlbnwwfHwwfHx8MA%3D%3D",
       "registration_date": "",
       "id": 3
+    },
+    {
+      "username": "liqes",
+      "email": "xubiz@mailinator.com",
+      "phone_no": "+1 (451) 444-6611",
+      "password": "123",
+      "profile_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D",
+      "registration_date": "",
+      "id": 4
     }
   ],
   "posts": [
@@ -55,24 +64,6 @@
       "id": 3
     },
     {
-      "userId": 2,
-      "title": "Trip to Bagan",
-      "body": "I am looking forward to furture",
-      "image_url": "https://images.unsplash.com/photo-1600486913747-55e5470d6f40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1hbnxlbnwwfHwwfHx8MA%3D%3D",
-      "category": "IT",
-      "created_at": "Dec 1, 2023 10:09 PM",
-      "id": 4
-    },
-    {
-      "userId": 2,
-      "title": "Ad sed laborum Face",
-      "body": "Nisi irure rem sunt ",
-      "image_url": "https://images.unsplash.com/photo-1548372290-8d01b6c8e78c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG1hbnxlbnwwfHwwfHx8MA%3D%3D",
-      "category": "IT",
-      "created_at": "7 minutes ago",
-      "id": 5
-    },
-    {
       "userId": 3,
       "title": "Granpa",
       "body": "First pic",
@@ -89,6 +80,60 @@
       "category": "IT",
       "created_at": "2023-12-01T22:54:54+06:30",
       "id": 7
+    },
+    {
+      "userId": 1,
+      "title": "Ball",
+      "body": "just kidding :))",
+      "image_url": "https://plus.unsplash.com/premium_photo-1700782893131-1f17b56098d0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8",
+      "category": "IT",
+      "created_at": "2023-12-03T14:34:22+06:30",
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "title": "Night view",
+      "body": "Quiet night",
+      "image_url": "https://plus.unsplash.com/premium_photo-1701127871438-af582cdd8c55?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHx8fA%3D%3D",
+      "category": "IT",
+      "created_at": "2023-12-03T21:50:59+06:30",
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "title": "New hair cut",
+      "body": "Et nobis irure conse",
+      "image_url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
+      "category": "IT",
+      "created_at": "2023-12-08T12:52:56+06:30",
+      "id": 10
+    },
+    {
+      "userId": 4,
+      "title": "At temple",
+      "body": "In ipsum vel cupidi",
+      "image_url": "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
+      "category": "IT",
+      "created_at": "2023-12-08T12:53:28+06:30",
+      "id": 11
+    },
+    {
+      "userId": 4,
+      "title": "a cat",
+      "body": "Sed in dolores est u",
+      "image_url": "https://images.unsplash.com/photo-1587723958656-ee042cc565a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
+      "category": "IT",
+      "created_at": "2023-12-08T12:54:33+06:30",
+      "id": 13
+    },
+    {
+      "userId": 4,
+      "title": "old man",
+      "body": "Odio numquam consect",
+      "image_url": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
+      "category": "IT",
+      "created_at": "2023-12-08T12:55:43+06:30",
+      "id": 14
     }
   ],
   "comments": [
@@ -121,6 +166,18 @@
       "postId": 7,
       "userId": 3,
       "id": 11
+    },
+    {
+      "comment": "old man is looking ",
+      "postId": 6,
+      "userId": 1,
+      "id": 12
+    },
+    {
+      "comment": "hoke lar ??? what's up, old man?",
+      "postId": 6,
+      "userId": 1,
+      "id": 13
     }
   ]
 }
